@@ -48,6 +48,8 @@ public class HolaMundoController implements Initializable {
 		nombre.bind(nombreText.textProperty());
 		
 		saludoLabel.textProperty().bind(saludo);
+		
+		view.getStylesheets().add("/css/holamundo.css");
 
 	}
 	

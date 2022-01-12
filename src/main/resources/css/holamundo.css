@@ -1,0 +1,32 @@
+.root{
+	-fx-font-family:monospace;
+	-fx-font-size:25pt;
+	-fx-background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/599px-The_Earth_seen_from_Apollo_17.jpg);
+	-fx-background-size:cover;
+}
+
+.label{
+	-fx-text-fill:red;
+	-fx-effect:dropshadow(gaussian, black, 5, 0.2, 15, 5);
+}
+
+.button, #botonera{
+	-fx-text-fill:white;
+	-fx-background-color:linear-gradient(from 0% 0% to 100% 0%, blue 0%, yellow 75%, white 100%);
+	-fx-background-insets:2px;
+	-fx-background-radius:25% 0% 25% 0%;
+	
+}
+
+.button:hover{
+	-fx-background-color:cyan;
+}
+
+.button:armed{
+	-fx-text-fill:#000000;
+	-fx-background-color:yellow;
+}
+
+#despedirButton{
+	-fx-text-fill:orange;
+}
